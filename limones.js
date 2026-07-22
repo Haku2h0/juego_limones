@@ -29,3 +29,6 @@ function limpiarpantalla(){
 function limpiar(){
     ctx.clearRect(0,0,canvas.width,canvas.height);
 }
+function moverderecha(){
+    personajex=personajex+10
+    limpiarpantalla()}
